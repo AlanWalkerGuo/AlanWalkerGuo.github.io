@@ -369,7 +369,37 @@
         
         <div class="entry-content">
           <p>测试</p>
-<h3 id="aaaa"><a href="#aaaa" class="headerlink" title="aaaa"></a>aaaa</h3><h2 id="bbb"><a href="#bbb" class="headerlink" title="bbb"></a>bbb</h2><h1 id="cc"><a href="#cc" class="headerlink" title="cc"></a>cc</h1>
+<h3 id="aaaa"><a href="#aaaa" class="headerlink" title="aaaa"></a>aaaa</h3><h2 id="bbb"><a href="#bbb" class="headerlink" title="bbb"></a>bbb</h2><h1 id="cc"><a href="#cc" class="headerlink" title="cc"></a>cc</h1><pre><code class="java">@Service
+public class WxMpTemplateMsgService {
+    @Autowired
+    private WxMpService wxMpService;
+
+    public void testSendTemplateMsg(String openId,String templateId,String taskName,String tasksh,String zt) throws WxErrorException {
+        SimpleDateFormat dateFormat = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);
+        WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
+                .toUser(openId)
+                .templateId(templateId)
+                .build();
+
+        if(templateId.equals(WxTemplate.WX_TZ_TEMPLATE.getTemplateId())){
+            templateMessage.addData(new WxMpTemplateData(&quot;first&quot;,&quot;您好请查看任务信息&quot;))
+                            .addData(new WxMpTemplateData(&quot;keyword1&quot;, taskName))
+                            .addData(new WxMpTemplateData(&quot;keyword2&quot;, dateFormat.format(new Date())))
+                            .addData(new WxMpTemplateData(&quot;keyword3&quot;, tasksh))
+                            .addData(new WxMpTemplateData(&quot;keyword4&quot;, zt))
+                            .addData(new WxMpTemplateData(&quot;remark&quot;, &quot;请尽快处理！&quot;));
+
+        }
+
+        String msgId = this.wxMpService.getTemplateMsgService().sendTemplateMsg(templateMessage);
+        Assert.assertNotNull(msgId);
+        System.out.println(msgId);
+    }
+
+}
+
+</code></pre>
+
         </div>
         <!-- .entry-content -->
         <div class="single-reward">
