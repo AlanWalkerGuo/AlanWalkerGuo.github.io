@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Mac os常见问题 | フルーツ</title>
+  <title itemprop="name">Mac os常见问题 | 郭少华</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -350,7 +350,7 @@
           </a>
         </span>
         <span>
-          <a href="hojun.cn">hojun</a>
+          <a href="hojun.cn">春野サクラ</a>
         </span>
         <span class="bull">
         ·</span>
@@ -369,8 +369,9 @@
         
         <div class="entry-content">
           <h1 id="开启转发功能"><a href="#开启转发功能" class="headerlink" title="开启转发功能"></a>开启转发功能</h1><p>在mac os中，非root用户是无法使用小于1024的常用端口的。如果开发中需要用到80端口, 就要设置端口转发。</p>
-<pre><code>sudo vim /etc/pf.conf
-</code></pre><p>rdr-anchor “com.apple/*”<br>后面添加一行配置，如下：</p>
+<pre><code class="shell">sudo vim /etc/pf.conf
+</code></pre>
+<p>rdr-anchor “com.apple/*”<br>后面添加一行配置，如下：</p>
 <pre><code>rdr on lo0 inet proto tcp from any to 127.0.0.1 port 80 -&gt; 127.0.0.1 port 8083
 </code></pre><p>启用转发</p>
 <pre><code>pfctl -ef /etc/pf.conf  启用转发
@@ -431,16 +432,16 @@ pfctl -s nat 查看所有转发
 
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-          <a href="hojun.cn" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/GuoSakura/GuoSakura.github.io@v1.5/img/custom/avatar.jpg" itemprop="image" alt="hojun" height="70" width="70"></a>
+          <a href="hojun.cn" class="profile gravatar"><img src="https://cdn.jsdelivr.net/gh/GuoSakura/GuoSakura.github.io@v1.5/img/custom/avatar.jpg" itemprop="image" alt="春野サクラ" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="hojun.cn" itemprop="url" rel="author">hojun</a>
+            <a href="hojun.cn" itemprop="url" rel="author">春野サクラ</a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i>一个好奇的人</p>
+        <p><i class="iconfont icon-write"></i>春野サクラ</p>
       </section>
     </main><!-- #main -->
   </div><!-- #primary -->
