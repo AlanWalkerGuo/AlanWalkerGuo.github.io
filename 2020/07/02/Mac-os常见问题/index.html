@@ -359,12 +359,10 @@
         
         <div class="entry-content">
           <h1 id="开启转发功能"><a href="#开启转发功能" class="headerlink" title="开启转发功能"></a>开启转发功能</h1><p>在mac os中，非root用户是无法使用小于1024的常用端口的。如果开发中需要用到80端口, 就要设置端口转发。</p>
-<pre><code class="shell">sudo vim /etc/pf.conf
-</code></pre>
-<p>rdr-anchor “com.apple/*”<br>后面添加一行配置，如下：</p>
-<pre><code class="bash">rdr on lo0 inet proto tcp from any to 127.0.0.1 port 80 -&gt; 127.0.0.1 port 8083
-</code></pre>
-<p>启用转发</p>
+<pre><code>sudo vim /etc/pf.conf
+</code></pre><p>rdr-anchor “com.apple/*”<br>后面添加一行配置，如下：</p>
+<pre><code>rdr on lo0 inet proto tcp from any to 127.0.0.1 port 80 -&gt; 127.0.0.1 port 8083
+</code></pre><p>启用转发</p>
 <pre><code>pfctl -ef /etc/pf.conf  启用转发
 pfctl -d  关闭转发功能
 pfctl -s nat 查看所有转发
