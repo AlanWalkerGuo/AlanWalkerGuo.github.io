@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-06-11T07:19:23.300Z</updated>
+  <updated>2020-07-02T08:19:59.665Z</updated>
   <id>/</id>
   
   <author>
@@ -17,24 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试</title>
-    <link href="/2019/11/15/hello-world/"/>
-    <id>/2019/11/15/hello-world/</id>
-    <published>2019-11-15T14:16:01.000Z</published>
-    <updated>2020-06-11T07:19:23.300Z</updated>
+    <title>Mac os常见问题</title>
+    <link href="/2020/07/02/Mac-os%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>/2020/07/02/Mac-os常见问题/</id>
+    <published>2020-07-02T08:13:40.000Z</published>
+    <updated>2020-07-02T08:19:59.665Z</updated>
     
     <summary type="html">
     
-      GG
+      
+      
+        
+        
+          &lt;h1 id=&quot;开启转发功能&quot;&gt;&lt;a href=&quot;#开启转发功能&quot; class=&quot;headerlink&quot; title=&quot;开启转发功能&quot;&gt;&lt;/a&gt;开启转发功能&lt;/h1&gt;&lt;p&gt;在mac os中，非root用户是无法使用小于1024的常用端口的。如果开发中需要用到80端口,
+        
+      
     
     </summary>
     
       <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="java" scheme="/tags/java/"/>
-    
-      <category term="spring" scheme="/tags/spring/"/>
+      <category term="Mac os" scheme="/tags/Mac-os/"/>
     
   </entry>
   
