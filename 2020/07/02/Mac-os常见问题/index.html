@@ -372,8 +372,9 @@
 <pre><code class="shell">sudo vim /etc/pf.conf
 </code></pre>
 <p>rdr-anchor “com.apple/*”<br>后面添加一行配置，如下：</p>
-<pre><code>rdr on lo0 inet proto tcp from any to 127.0.0.1 port 80 -&gt; 127.0.0.1 port 8083
-</code></pre><p>启用转发</p>
+<pre><code class="bash">rdr on lo0 inet proto tcp from any to 127.0.0.1 port 80 -&gt; 127.0.0.1 port 8083
+</code></pre>
+<p>启用转发</p>
 <pre><code>pfctl -ef /etc/pf.conf  启用转发
 pfctl -d  关闭转发功能
 pfctl -s nat 查看所有转发
