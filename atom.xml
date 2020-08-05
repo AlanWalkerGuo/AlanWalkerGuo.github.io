@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-07-02T08:54:45.843Z</updated>
+  <updated>2020-08-05T09:15:59.563Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JVM</title>
+    <link href="/2020/08/05/JVM/"/>
+    <id>/2020/08/05/JVM/</id>
+    <published>2020-08-05T03:26:41.000Z</published>
+    <updated>2020-08-05T09:15:59.563Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JVM内存区域&quot;&gt;&lt;a href=&quot;#JVM内存区域&quot; class=&quot;headerlink&quot; title=&quot;JVM内存区域&quot;&gt;&lt;/a&gt;JVM内存区域&lt;/h1&gt;&lt;h2 id=&quot;数据区域&quot;&gt;&lt;a href=&quot;#数据区域&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="JVM" scheme="/tags/JVM/"/>
+    
+  </entry>
   
   <entry>
     <title>Mac os常见问题</title>
