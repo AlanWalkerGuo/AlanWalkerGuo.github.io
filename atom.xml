@@ -5,9 +5,9 @@
   <subtitle>郭少华</subtitle>
   <link href="/guoblog/atom.xml" rel="self"/>
   
-  <link href="https://guosakura.gitee.io/guoblog/"/>
+  <link href="http://guosakura.gitee.io/guoblog/"/>
   <updated>2020-08-10T06:22:03.911Z</updated>
-  <id>https://guosakura.gitee.io/guoblog/</id>
+  <id>http://guosakura.gitee.io/guoblog/</id>
   
   <author>
     <name>guoshaohua</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>JVM</title>
-    <link href="https://guosakura.gitee.io/guoblog/2020/08/05/JVM/"/>
-    <id>https://guosakura.gitee.io/guoblog/2020/08/05/JVM/</id>
+    <link href="http://guosakura.gitee.io/guoblog/2020/08/05/JVM/"/>
+    <id>http://guosakura.gitee.io/guoblog/2020/08/05/JVM/</id>
     <published>2020-08-05T03:26:41.000Z</published>
     <updated>2020-08-10T06:22:03.911Z</updated>
     
@@ -35,19 +35,19 @@
     
     </summary>
     
-      <category term="技术" scheme="https://guosakura.gitee.io/guoblog/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://guosakura.gitee.io/guoblog/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="JVM" scheme="https://guosakura.gitee.io/guoblog/tags/JVM/"/>
+      <category term="JVM" scheme="http://guosakura.gitee.io/guoblog/tags/JVM/"/>
     
-      <category term="JAVA" scheme="https://guosakura.gitee.io/guoblog/tags/JAVA/"/>
+      <category term="JAVA" scheme="http://guosakura.gitee.io/guoblog/tags/JAVA/"/>
     
   </entry>
   
   <entry>
     <title>Mac os常见问题</title>
-    <link href="https://guosakura.gitee.io/guoblog/2020/07/02/Mac-os%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    <id>https://guosakura.gitee.io/guoblog/2020/07/02/Mac-os常见问题/</id>
+    <link href="http://guosakura.gitee.io/guoblog/2020/07/02/Mac-os%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://guosakura.gitee.io/guoblog/2020/07/02/Mac-os常见问题/</id>
     <published>2020-07-02T08:13:40.000Z</published>
     <updated>2020-07-02T08:54:45.843Z</updated>
     
@@ -57,10 +57,10 @@
     
     </summary>
     
-      <category term="技术" scheme="https://guosakura.gitee.io/guoblog/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://guosakura.gitee.io/guoblog/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Mac os" scheme="https://guosakura.gitee.io/guoblog/tags/Mac-os/"/>
+      <category term="Mac os" scheme="http://guosakura.gitee.io/guoblog/tags/Mac-os/"/>
     
   </entry>
   
