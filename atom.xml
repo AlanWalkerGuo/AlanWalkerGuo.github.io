@@ -3,11 +3,11 @@
   <title>郭少华</title>
   
   <subtitle>郭少华</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/GuoBlog/atom.xml" rel="self"/>
   
-  <link href="/"/>
+  <link href="https://gitee.com/GuoSakura/GuoBlog.git/"/>
   <updated>2020-08-10T06:22:03.911Z</updated>
-  <id>/</id>
+  <id>https://gitee.com/GuoSakura/GuoBlog.git/</id>
   
   <author>
     <name>guoshaohua</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>JVM</title>
-    <link href="/2020/08/05/JVM/"/>
-    <id>/2020/08/05/JVM/</id>
+    <link href="https://gitee.com/GuoSakura/GuoBlog.git/2020/08/05/JVM/"/>
+    <id>https://gitee.com/GuoSakura/GuoBlog.git/2020/08/05/JVM/</id>
     <published>2020-08-05T03:26:41.000Z</published>
     <updated>2020-08-10T06:22:03.911Z</updated>
     
@@ -35,19 +35,19 @@
     
     </summary>
     
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://gitee.com/GuoSakura/GuoBlog.git/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="JVM" scheme="/tags/JVM/"/>
+      <category term="JVM" scheme="https://gitee.com/GuoSakura/GuoBlog.git/tags/JVM/"/>
     
-      <category term="JAVA" scheme="/tags/JAVA/"/>
+      <category term="JAVA" scheme="https://gitee.com/GuoSakura/GuoBlog.git/tags/JAVA/"/>
     
   </entry>
   
   <entry>
     <title>Mac os常见问题</title>
-    <link href="/2020/07/02/Mac-os%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    <id>/2020/07/02/Mac-os常见问题/</id>
+    <link href="https://gitee.com/GuoSakura/GuoBlog.git/2020/07/02/Mac-os%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>https://gitee.com/GuoSakura/GuoBlog.git/2020/07/02/Mac-os常见问题/</id>
     <published>2020-07-02T08:13:40.000Z</published>
     <updated>2020-07-02T08:54:45.843Z</updated>
     
@@ -57,10 +57,10 @@
     
     </summary>
     
-      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://gitee.com/GuoSakura/GuoBlog.git/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="Mac os" scheme="/tags/Mac-os/"/>
+      <category term="Mac os" scheme="https://gitee.com/GuoSakura/GuoBlog.git/tags/Mac-os/"/>
     
   </entry>
   
