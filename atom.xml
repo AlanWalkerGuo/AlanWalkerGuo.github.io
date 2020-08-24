@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-08-10T06:22:03.911Z</updated>
+  <updated>2020-08-24T06:45:56.328Z</updated>
   <id>/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>JVM</title>
-    <link href="/2020/08/05/JVM/"/>
-    <id>/2020/08/05/JVM/</id>
+    <link href="/2020/08/05/JVM%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F/"/>
+    <id>/2020/08/05/JVM内存区域/</id>
     <published>2020-08-05T03:26:41.000Z</published>
-    <updated>2020-08-10T06:22:03.911Z</updated>
+    <updated>2020-08-24T06:45:56.328Z</updated>
     
     <summary type="html">
     
